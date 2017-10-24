@@ -1,19 +1,9 @@
 User-agent: *
-Disallow: /update-center/
 Disallow: /js/
 Disallow: /_layouts/
 Disallow: /_includes/
-Disallow: /SauceryNUnit/5ff4adab-3ef9-4788-b655-8c874cedfcb1.html
-Disallow: /SauceryNUnit/68dc777c-fa4e-4a98-aceb-573e2e392bfe.html
-Disallow: /SauceryJUnit/73c95102-541e-4ec1-a0c8-ea1dd8dc70a8.html
 Disallow: /*/thankyou.html
-Disallow: /*/activation.html
-Disallow: /hs_standard_screenshots.htm
 Disallow: /index.htm
-Disallow: /xi_standard_screenshots.htm
-Disallow: /index.htm
-Disallow: /standardsuite.htm
-Disallow: /xraymachine.htm
 Disallow: /privacy.htm
 Disallow: /support.htm
 Disallow: /SauceryJUnit/terms.html
@@ -21,14 +11,10 @@ Disallow: /SauceryNUnit/terms.html
 Disallow: /SauceryJUnit/privacy.html
 Disallow: /SauceryNUnit/privacy.html
 Disallow: /SauceryNUnit/howto.html
-Disallow: /SauceryJUnit/services-v3.html
-Disallow: /SauceryJUnit/about-us-v1.html
 Disallow: /SauceryJUnit/terms.html
 Disallow: /SauceryNUnit/privacy.html
-Disallow: /about.htm
 Disallow: /SauceryJUnit/privacy.html
-Disallow: /hydratedsolutions.htm
-Disallow: /xinvoices.htm
+Disallow: /about.htm
 Disallow: /privacy.htm
 
-Sitemap: http://fullcirclesolutions.com.au/Sitemap.xml
+Sitemap: https://sauceforge.github.com/Sitemap.xml
