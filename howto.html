@@ -17,15 +17,15 @@ layout: default
 <section class="section">
 	<h1 class="sr-only">How To Integrate Saucery</h1>
 	<div class="container-sm">
-		<h2>Reference</h2>
-		<p>Create a simple class library and reference <a href="http://nuget.org/packages/saucery2" target="_blank">Saucery2</a> (for NUnit2) or <a href="http://nuget.org/packages/saucery3" target="_blank">Saucery3</a> (for NUnit 3).</p>
-		<h2>Write your tests</h2>
-		<p>Check out the source code for <a href="http://github.com/Sauceforge/Saucery2" target="_blank">Saucery2</a>, <a href="http://github.com/Sauceforge/Saucery3" target="_blank">Saucery3</a> and <a href="http://github.com/Sauceforge/SauceryJ" target="_blank">SauceryJ</a>  and know you can focus on your application and your tests. No need to think about DesiredOptions at all. Integration with SauceLabs is seamless!</p>
 		<h2>Create a SauceLabs account</h2>
 		<p>Go to <a href="http://saucelabs.com" target="_blank">SauceLabs</a> and signup for a free <a href="https://saucelabs.com/signup/trial" target="_blank">trial account</a>.</p>
+		<h2>Reference</h2>
+		<p>Create a simple class library and reference <a href="http://nuget.org/packages/saucery" target="_blank">Saucery</a> (for NUnit) or <a href="http://nuget.org/packages/sauceryX" target="_blank">SauceryX</a> (for XUnit) from NuGet</p>
 		<h2>Execute!</h2>
-		<p>Configure your build server with your SauceLabs account details and install the <b>Sauce OnDemand plugin</b> for <a href="https://wiki.jenkins-ci.org/display/JENKINS/Sauce+OnDemand+Plugin" target="_blank">Jenkins</a> or <a href="https://marketplace.atlassian.com/plugins/com.saucelabs.bamboo.bamboo-sauceondemand-plugin" target="_blank">Bamboo</a>.</p>
+		<p>Alternatively configure your build server with your SauceLabs account details and install the <b>Sauce OnDemand plugin</b> for <a href="https://wiki.jenkins-ci.org/display/JENKINS/Sauce+OnDemand+Plugin" target="_blank">Jenkins</a> or <a href="https://marketplace.atlassian.com/plugins/com.saucelabs.bamboo.bamboo-sauceondemand-plugin" target="_blank">Bamboo</a> or set simply set the SauceLabs environment variables for Saucery to find.</p>
 		<p>In the job configuration, specify the platforms you wish to target.<p>
+		<h2>Write your tests</h2>
+		<p>Have a look at the ExternalMerlin.NUnit or ExternalMerlin.XUnit projects in <a href="http://github.com/Sauceforge/Saucery" target="_blank">Github</a> for examples. You can focus on your application and your tests. No need to think about DesiredOptions at all. Integration with SauceLabs is seamless!</p>
 		<p>Execute your CI job and sit back as the awesome is unleashed!</p>
 	</div>
 </section>
